@@ -1,3 +1,4 @@
+/*Colours*/
 :root {
     --bluelight-colour:#33465b;
     --bluelighttransp-colour:#33465bc9;
@@ -195,7 +196,7 @@ Tablets */
         font-size: 15px;
     }
 
-  .showcase p {
+    .showcase p {
         font-size: 12px;
         margin: 5px;
     }
@@ -231,7 +232,7 @@ footer {
     
     .navbar ul {
         padding: 0px;
-        background-color: rgba(0, 0, 0, 0.1);
+        background-color: rgba(0, 0, 0, 0);
       }
     .navbar a:hover {
     background-color: no;
