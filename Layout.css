@@ -14,7 +14,7 @@
 }
 
 .container {
-    max-width: 1100px;
+    max-width: 900px;
     height: 100%;
     margin: 0 auto;
     overflow: auto;
@@ -28,8 +28,11 @@
     flex-direction: row;
     height: 100%;
     align-items: center;
+    flex-wrap: wrap; 
 }
-
+.container .flex {
+    margin: 0px;
+}
 .card {
     background-color: var(--bluelighttransp-colour);
     border-radius: 20px;
@@ -72,6 +75,7 @@ p {
 
 img {
     width: 100%; /* images fit to container size */
+    align-self: left;
 }
 
 .bg-image {
@@ -142,9 +146,10 @@ justify-content: space-between;
     padding-right: 30px;
 }
 .showcase-text {
-    max-width: 600px;
-    margin-left: 30px;
-    margin-right: 30px;
+    max-width: 700px;
+    margin-left: 0px;
+    margin-right: 20px;
+    ;
 }
 .showcase.side {
     -webkit-flex: 1;
@@ -152,11 +157,13 @@ justify-content: space-between;
     flex: 1;
 }
 .showcase.middle {
-    -webkit-flex: 3;
-    -ms-flex: 3;
-    flex: 3;
+    -webkit-flex: 10;
+    -ms-flex: 10;
+    flex: 10;
     text-align: center;
     padding: 0px;
+    border: 10px;
+    
 }
 .showcase h1 {
     font-size: 30px;
