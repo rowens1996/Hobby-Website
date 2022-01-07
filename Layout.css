@@ -75,7 +75,7 @@ img {
 }
 
 .bg-image {
-    background-image: url("Background.jpg");
+    background-image: url("Images/Background.jpg");
     filter: blur(8px);
     -webkit-filter: blur(8px);
     z-index: -1;
