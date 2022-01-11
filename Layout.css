@@ -115,7 +115,7 @@ justify-content: space-between;
 }
 
 .navbar li {
-    display: inline-flexbox;
+    display: inline-flex;
 }
 
 .navbar a {

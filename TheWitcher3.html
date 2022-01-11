@@ -1,17 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-scale=no">
-   <link rel="stylesheet" type="text/css" href="Layout.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+        integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+        crossorigin="anonymous" />
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!--relink css-->
     <title>Hobby Website</title>
 </head>
+
 <body>
-     <!--Navbar-->
-     <div class="navbar">
+    <!--Background-->
+    <div class="bg-img">
+    </div>
+    <!--Navbar-->
+    <div class="navbar">
         <div class="container-fluid flex">
-            <h1 class="logo"><!-- Change to something else later -->Ryan's Favourite Games</h1>
+            <h1 class="logo">
+                <!-- Change to something else later -->Ryan's Favourite Games
+            </h1>
             <nav>
                 <ul>
                     <li><a href="index.html">Home</a></li>
@@ -22,53 +33,110 @@
             </nav>
         </div>
     </div>
-    <!--Background-->
-    <div class="bg-image"></div>
-    <!--Page Content-->
-        <section class="showcase-top">
-           <div class="container-fluid flex">
-                <div class="showcase-text card">
-                    <h1>Game Synopsis</h1>
-                    <p>What is Lorem Ipsum?
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>
-                </div>
-                <div class="showcase-text card">
-                    <img class="img" src="Images/witcher.jpg" alt="Witcher 3">
-                   
-                </div>
-                </div>
-            </div>
-        </section> 
-        <section class="showcase">
-            <div class="contaner flex">
-                
-            <div class="showcase side">
-                </div>
-            <div class="showcase middle card">
-                    <h1>Review</h1>
-                    <p>What is Lorem Ipsum?
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>
-                
-            </div>
-            <div class="showcase side">
-                </div>
-        </div>  
-        </section>
-    
-     <!-- Footer -->
-     <footer>
-        <div class="container grid">
-            <div>
-                <p><b>Disclaimer</b>: I do not own the rights to any of the images shown as they belong to the copyright holders of the individual game publishers. This Website is a part of my personal developer protfolio on github.com/rowens1996.</p>
-                <p>Copyright &copy; 2022</p>
-            </div>
-            
-            <div class="social">
-                <a href="#"><i class="fab fa-github fa-2x"></i></a>
-                <a href="#"><i class="fab fa-facebook fa-2x"></i></a>
-                <a href="#"><i class="fab fa-instagram fa-2x"></i></a>
-                <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
-            </div>
+
+    <!--Home.html Only-->
+    <!--HomePage Header-->
+    <header id="Header" class="grid">
+        <div class="content-wrap">
+            <h2 class="content header">Welcome to my Website</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio praesentium ut expedita voluptatem!
+                Provident molestiae aperiam tempore maiores. Voluptas, itaque!</p>
         </div>
-        </footer>
-    </html>
+    </header>
+
+    <!--Main Page Content-->
+    <main id="main">
+        <section id="section-a" class="grid">
+            <div class="content-wrap">
+                <h2 class="content-title">Game Synopsis</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, quos ipsa. Eligendi minima
+                    doloremque nemo atque reiciendis ipsum culpa, odio rem? Sequi iure aspernatur praesentium totam
+                    magni reiciendis fuga ipsum dignissimos modi dolor nobis asperiores, non recusandae adipisci
+                    repellendus. Esse facilis necessitatibus delectus earum deleniti. Architecto explicabo aliquam
+                    tempora aliquid.</p>
+            </div>
+        </section>
+        <section id="showcase-b" class="grid">
+            <ul>
+                <li>
+                    <div class="card">
+                        <img src="Images/witcher.jpg" alt="Witcher 3">
+                        <div class="div card-content">
+                            <h3 class="card-title">Card Title</h3>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia natus consequatur
+                                assumenda repellat quo hic ut ab eius aperiam vel!</p>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="card">
+                        <img src="Images/witcher.jpg" alt="Witcher 3">
+                        <div class="div card-content">
+                            <h3 class="card-title">Card Title</h3>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia natus consequatur
+                                assumenda repellat quo hic ut ab eius aperiam vel!</p>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="card">
+                        <img src="Images/witcher.jpg" alt="Witcher 3">
+                        <div class="div card-content">
+                            <h3 class="card-title">Card Title</h3>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia natus consequatur
+                                assumenda repellat quo hic ut ab eius aperiam vel!</p>
+                        </div>
+                    </div>
+                </li>
+                </div>
+                <div class="showcase middle card">
+                    <h1>Review</h1>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur non voluptates impedit ex
+                        cupiditate, beatae sapiente sit accusamus alias distinctio molestias labore debitis adipisci
+                        maxime doloremque commodi aspernatur veniam laborum.</p>
+                </div>
+                <div class="showcase side">
+                </div>
+                </div>
+            </ul>
+        </section>
+        <section id="showcase-c" class="grid">
+            <div class="content-wrap">
+                <h2 class="content-title">My Review</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet qui, ipsa libero saepe maxime error
+                    architecto ratione dolore aspernatur magni. Reprehenderit atque voluptas autem ad obcaecati aperiam
+                    magnam in odit, libero aspernatur fugit praesentium sed sequi! Quia doloribus eum labore quam fuga
+                    saepe. Ipsam nobis amet, omnis voluptates exercitationem quaerat obcaecati dolore sint soluta!
+                    Repudiandae tempore molestias blanditiis ut quibusdam!
+                </p>
+            </div>
+        </section>
+        <section id="section-d" class="grid">
+            <div class="box">
+                <h2 class="content-title">Another Box</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi dolorem dolore ratione facilis nihil
+                    nulla eum inventore tempora ea culpa distinctio asperiores saepe incidunt repudiandae officiis
+                    corrupti, neque impedit autem ab beatae numquam adipisci. Autem sed voluptate quisquam eius maxime?
+                </p>
+            </div>
+        </section>
+    </main>
+    <!-- Footer -->
+    <footer id="footer" class="grid">
+        <div>
+            <p><b>Disclaimer</b>: I do not own the rights to any of the images shown as they belong to the copyright
+                holders of the individual game publishers. This Website is a part of my personal developer protfolio
+                on github.com/rowens1996.</p>
+            <p>Copyright &copy; 2022</p>
+        </div>
+
+        <div class="social">
+            <a href="#"><i class="fab fa-github fa-2x"></i></a>
+            <a href="#"><i class="fab fa-facebook fa-2x"></i></a>
+            <a href="#"><i class="fab fa-instagram fa-2x"></i></a>
+            <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
+        </div>
+        </div>
+    </footer>
+
+</html>
