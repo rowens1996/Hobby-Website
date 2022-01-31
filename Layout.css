@@ -23,14 +23,6 @@
 
 }
 
-.flex {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
-    height: 100%;
-    align-items: center;
-    flex-wrap: wrap; 
-}
 .container .flex {
     margin: 0px;
 }
@@ -106,7 +98,9 @@ img {
 }
 
 .navbar .flex {
-justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    flex-direction: column;
 }
 
 .navbar ul {
@@ -126,10 +120,7 @@ justify-content: space-between;
 .navbar a:hover {
     background-color: var(--bluelight-colour);
 }
- .navbar .flex {
-    justify-content: left;
- }
- 
+
 /*showcase style*/
 .showcase {
     z-index: 9999;
